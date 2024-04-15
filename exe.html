@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="fitness.html">Acasă</a></li>
+            <li><a href="abut.html">Despre Noi</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</section>
+<section id="start">
+    <div class="container">
+        <h2>Pornește Programul</h2>
+        <button id="startButton">Start</button>
+    </div>
+</section>
+
+<h2>
+    <a href="abut.html">Textul dorit pentru link</a>
+</h2>
+
+
+<section id="formular" class="ascuns">
+    <div class="container">
+        <h2>Completează Detaliile</h2>
+        <form id="formularDetalii">
+            <div class="form-group">
+                <label for="inaltime">Înălțime (cm):</label>
+                <input type="number" id="inaltime" placeholder="Ex: 170">
+            </div>
+            <div class="form-group">
+                <label for="greutate">Greutate (kg):</label>
+                <input type="number" id="greutate" placeholder="Ex: 70">
+            </div>
+            <div class="form-group">
+                <label for="dataNasterii">Data Nașterii:</label>
+                <input type="date" id="dataNasterii">
+            </div>
+            <div class="form-group">
+                <label for="numarTelefon">Număr Telefon:</label>
+                <input type="tel" id="numarTelefon" placeholder="Ex: 0722123456">
+            </div>
+            <button type="submit">Trimite</button>
+        </form>
+        <p id="confirmare" class="ascuns">Datele au fost primite cu succes!</p>
+    </div>
+</section>
+
+<div id="popup" class="ascuns">
+    <div class="popup-content">
+        <img src="done.jpg" alt="Done">
+        <p>Datele au fost primite cu succes! Vom reveni cu un apel.</p>
+    </div>
+</div>
+
+<div id="popupContact" class="ascuns">
+    <div class="popup-content">
+        <img src="telefon.png" alt="Telefon">
+        <p>Pentru contact, sunați la: <br> <strong>0751 123 456</strong></p>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Aplicație Fitness și Nutriție</p>
+    </div>
+</footer>
+
+<script src="fitness.js"></script>
+</body>
+</html>

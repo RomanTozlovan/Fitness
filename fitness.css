@@ -1,0 +1,182 @@
+body {
+    background-image: url('sala.jpg'); /* Imaginile trebuie să fie puse în același director cu fișierul HTML */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#confirmare {
+    color: green;
+}
+
+.ascuns {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 300px;
+}
+
+/* Adăugați aceste stiluri pentru a formata frumos formularul */
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.nav-link{
+    color: var(--secondaryTextColor);
+    cursor: pointer;
+    margin-right: 2em;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+}
+
+.popup-content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#popup img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+#popupContact {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+}
+
+.popup-content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#popupContact img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* culoare de fundal a meniului */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* culoare text */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* culoare de fundal la hover */
+}

@@ -1,0 +1,53 @@
+body {
+    background-image: url('sala.jpg'); /* Imaginile trebuie să fie puse în același director cu fișierul HTML */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section#despre-noi {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content img {
+    max-width: 100%;
+}
